@@ -1,4 +1,4 @@
-This repository contains codes for our paper:
+This repository contains codes (Python and MATLAB) for our paper:
 
 "Semantic Autoencoder for Zero-shot Learning", 
 
