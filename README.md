@@ -16,15 +16,8 @@ Paper
 @ARTICLE{ekodirov_cvpr2017,
    author = {Elyor Kodirov, Tao Xiang, and Shagong Gong},
     title = "{Semantic Autoencoder for Zero-shot Learning}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1612.04642},
- primaryClass = "cs.CV",
- keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Learning, Statistics - Machine Learning},
-     year = 2016,
-    month = dec,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv161204642W},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+  journal = {IEEE CVPR 2017},
+     year = 2017,
+    month = July}
 ```
 
