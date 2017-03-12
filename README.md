@@ -6,7 +6,7 @@ Existing zero-shot learning (ZSL) models typically learn a projection function f
 
 ### An implementation of SAE in MATLAB, TensorFlow
 TensorFlow-based code is coming soon.
-### Download
+### Download Paper
 
 Coming soon.
 
