@@ -18,6 +18,7 @@ Paper
     title = "{Semantic Autoencoder for Zero-shot Learning}",
   journal = {IEEE CVPR 2017},
      year = 2017,
-    month = July}
+    month = July
+    }
 ```
 
