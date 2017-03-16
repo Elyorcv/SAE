@@ -113,7 +113,7 @@
   <head>
 	  <title>Semantic Autoencoder for Zero-shot Learning</title>
       <meta property="og:image" content="https://github.com/Elyorcv/SAE/blob/master/projectwebsite/sae_figure.png"/>
-      <meta property="og:title" content="Image-to-Image Translation with Conditional Adversarial Networks" />
+      <meta property="og:title" content="Semantic Autoencoder for Zero-shot Learning" />
   </head>
 
   <body>
@@ -185,7 +185,7 @@
 	  		    </td>
 	  		  </tr>
 			</table>
-				Semantic Autoencoder for Zero-Shot LearningElyor Kodirov     Tao Xiang     Shaogang GongQueen Mary University of London, the UKfe.kodirov, t.xiang, s.gongg@qmul.ac.ukAbstractExisting zero-shot learning (ZSL) models typically learna projection function from a visual feature space to a se-mantic embedding space (e.g. attribute space).   However,such a projection function is only concerned with predict-ing the training seen class semantic representation (e.g. at-tribute prediction) or classification.   When applied to testdata, which in the context of ZSL contains different (unseen)classes  without  training  data,  a  ZSL  model  typically  suf-fers from the project domain shift problem.   In this work,we  present  a  novel  solution  to  ZSL  based  on  learning  aSemantic AutoEncoder (SAE). Taking the encoder-decoderparadigm, an encoder aims to project a visual feature vec-tor  into  the  semantic  space  as  in  the  existing  ZSL  mod-els.  However, the decoder exerts an additional constraint,that  is,  the  projection/code  must  be  able  to  reconstructthe  original  visual  feature.    We  show  that  with  this  ad-ditional  reconstruction  constraint,  the  learned  projectionfunction  from  the  seen  classes  is  able  to  generalise  bet-ter  to  the  new  unseen  classes.   Importantly,  the  encoderand decoder are linear and symmetric which enable us todevelop an extremely efficient learning algorithm.   Exten-sive  experiments  on  six  benchmark  datasets  demonstratethat the proposed SAE outperforms significantly the exist-ing ZSL models with the additional benefit of lower com-putational  cost.    Furthermore,  when  the  SAE  is  appliedto  supervised  clustering  problem,  it  also  beats  the  state-of-the-art.  		  <br><br>
+				 Existing zero-shot learning (ZSL) models typically learna projection function from a visual feature space to a se-mantic embedding space (e.g. attribute space).   However,such a projection function is only concerned with predict-ing the training seen class semantic representation (e.g. at-tribute prediction) or classification.   When applied to testdata, which in the context of ZSL contains different (unseen)classes  without  training  data,  a  ZSL  model  typically  suf-fers from the project domain shift problem.   In this work,we  present  a  novel  solution  to  ZSL  based  on  learning  aSemantic AutoEncoder (SAE). Taking the encoder-decoderparadigm, an encoder aims to project a visual feature vec-tor  into  the  semantic  space  as  in  the  existing  ZSL  mod-els.  However, the decoder exerts an additional constraint,that  is,  the  projection/code  must  be  able  to  reconstructthe  original  visual  feature.    We  show  that  with  this  ad-ditional  reconstruction  constraint,  the  learned  projectionfunction  from  the  seen  classes  is  able  to  generalise  bet-ter  to  the  new  unseen  classes.   Importantly,  the  encoderand decoder are linear and symmetric which enable us todevelop an extremely efficient learning algorithm.   Exten-sive  experiments  on  six  benchmark  datasets  demonstratethat the proposed SAE outperforms significantly the exist-ing ZSL models with the additional benefit of lower com-putational  cost.    Furthermore,  when  the  SAE  is  appliedto  supervised  clustering  problem,  it  also  beats  the  state-of-the-art.  		  <br><br>
 		  <hr>
 
 
@@ -195,7 +195,7 @@
   		  <table align=center width=800px>
 			  <tr><center>
 				<!-- <span style="font-size:28px">Code coming soon!</span></i>			  	 -->
-				<span style="font-size:28px">&nbsp;<a href='https://github.com/phillipi/pix2pix'>[GitHub]</a>
+				<span style="font-size:28px">&nbsp;<a href='https://github.com/Elyorcv/SAE'>[GitHub]</a>
 
 				<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caffe&nbsp;<a href="http://www.eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v0/colorization_deploy_v0.prototxt">[Prototxt]</a>&nbsp;<a href="https://www.dropbox.com/s/8iq5wm4ton5gwe1/colorization_release_v0.caffemodel">[Model 129MB]--></span></span><i></i>
 				<span style="font-size:28px"></a></span>
