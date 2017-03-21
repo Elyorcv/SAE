@@ -188,7 +188,7 @@
 				 Existing zero-shot learning (ZSL) models typically learna projection function from a visual feature space to a se-mantic embedding space (e.g. attribute space).   However,such a projection function is only concerned with predict-ing the training seen class semantic representation (e.g. at-tribute prediction) or classification.   When applied to testdata, which in the context of ZSL contains different (unseen)classes  without  training  data,  a  ZSL  model  typically  suf-fers from the project domain shift problem.   In this work,we  present  a  novel  solution  to  ZSL  based  on  learning  aSemantic AutoEncoder (SAE). Taking the encoder-decoderparadigm, an encoder aims to project a visual feature vec-tor  into  the  semantic  space  as  in  the  existing  ZSL  mod-els.  However, the decoder exerts an additional constraint,that  is,  the  projection/code  must  be  able  to  reconstructthe  original  visual  feature.    We  show  that  with  this  ad-ditional  reconstruction  constraint,  the  learned  projectionfunction  from  the  seen  classes  is  able  to  generalise  bet-ter  to  the  new  unseen  classes.   Importantly,  the  encoderand decoder are linear and symmetric which enable us todevelop an extremely efficient learning algorithm.   Exten-sive  experiments  on  six  benchmark  datasets  demonstratethat the proposed SAE outperforms significantly the exist-ing ZSL models with the additional benefit of lower com-putational  cost.    Furthermore,  when  the  SAE  is  appliedto  supervised  clustering  problem,  it  also  beats  the  state-of-the-art.  		  
 			      <br>
 			      <br>
-		  <hr><hr>
+  <hr>
   <hr>
         
         
@@ -268,10 +268,8 @@
         
  		  
 
-	  <br>
-	  <hr>
-	  <br>
-
+<br>
+<br>
   		  
     	  <table align=center width=1100px>
   	    <tr>
