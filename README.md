@@ -8,7 +8,7 @@ Existing zero-shot learning (ZSL) models typically learn a projection function f
 TensorFlow-based code is coming soon.
 ### Download Paper
 
-Coming soon.
+[Paper](https://sites.google.com/site/elyorkodirovresearch/elyor_cvpr2017.pdf?attredirects=0&d=1)
 
 ### Citation
 
