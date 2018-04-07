@@ -13,8 +13,10 @@
 clc
 clc, clear all,  close all
 
+addpath('data_zsl')
 addpath('library')
-load('cub_demo_data.mat');
+
+load('data_zsl/cub_demo_data.mat');
 
 % Dimension reduction
 Y    = label_matrix(train_labels_cub')';
