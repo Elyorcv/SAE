@@ -9,7 +9,7 @@ In Python: https://github.com/hoseong-kim/sae-pytorch/blob/master/sae.py (Thanks
 
 ### Download Paper
 
-[Paper](https://sites.google.com/site/elyorkodirovresearch/elyor_cvpr2017.pdf?attredirects=0&d=1)
+[Paper](http://openaccess.thecvf.com/content_cvpr_2017/html/Kodirov_Semantic_Autoencoder_for_CVPR_2017_paper.html)
 
 ### Citation
 
